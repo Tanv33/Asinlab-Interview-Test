@@ -16,7 +16,6 @@
     "react-scripts": "5.0.0",
     "react-top-loading-bar": "^2.1.0",
     "sass": "^1.46.0",
-    "use-timer": "^2.0.1",
     "web-vitals": "^2.1.2"
   },
   "scripts": {
