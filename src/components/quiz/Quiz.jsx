@@ -13,7 +13,7 @@ export default function Quiz() {
   const buttonRef = useRef([]);
   const { state } = useContext(GlobalContext);
   const [startQuiz, setStartQuiz] = useState(false);
-  const [currentQuestion, setCurrentQuestion] = useState(18);
+  const [currentQuestion, setCurrentQuestion] = useState(0);
   const [informAnwser, setInformAnswer] = useState(undefined);
   const [loadProgress, setLoadProgress] = useState(5);
   const [options, setOptions] = useState("");
@@ -32,6 +32,7 @@ export default function Quiz() {
 
   // UseEffect hook for setting default behaviour of  functions , setting options and etc...
   useEffect(() => {
+    window.scrollTo(0, 0);
     if (currentQuestion < 20) {
       setOptions(
         quizArray &&
@@ -235,7 +236,7 @@ export default function Quiz() {
                     Try Again
                   </button>
                   <br />
-                  <button onClick={() => window.scrollTo(100, 100)}>
+                  <button onClick={() => window.scrollTo(0, 400)}>
                     Result Is Given Below &#8595;
                   </button>
                   <br />
