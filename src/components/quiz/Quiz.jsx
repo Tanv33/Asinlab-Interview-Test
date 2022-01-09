@@ -13,7 +13,7 @@ export default function Quiz() {
   const buttonRef = useRef([]);
   const { state } = useContext(GlobalContext);
   const [startQuiz, setStartQuiz] = useState(false);
-  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [currentQuestion, setCurrentQuestion] = useState(18);
   const [informAnwser, setInformAnswer] = useState(undefined);
   const [loadProgress, setLoadProgress] = useState(5);
   const [options, setOptions] = useState("");
@@ -225,11 +225,16 @@ export default function Quiz() {
               ) : (
                 <>
                   <button
-                    style={{ backgroundColor: "#dd514c", border: "none", marginBottom:"10px" }}
+                    style={{
+                      backgroundColor: "#dd514c",
+                      border: "none",
+                      marginBottom: "10px",
+                    }}
                     onClick={() => window.location.reload()}
                   >
                     Try Again
                   </button>
+                  <br />
                   <button onClick={() => window.scrollTo(100, 100)}>
                     Result Is Given Below &#8595;
                   </button>
