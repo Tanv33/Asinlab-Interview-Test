@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.6914208d.css",
-    "main.js": "/static/js/main.cb8cf67d.js",
-    "static/js/787.bf32509e.chunk.js": "/static/js/787.bf32509e.chunk.js",
-    "index.html": "/index.html",
-    "static/media/stopwatch.svg": "/static/media/stopwatch.1bbdf2b9215043fd19f3901a30e047e0.svg",
-    "main.6914208d.css.map": "/static/css/main.6914208d.css.map",
-    "main.cb8cf67d.js.map": "/static/js/main.cb8cf67d.js.map",
-    "787.bf32509e.chunk.js.map": "/static/js/787.bf32509e.chunk.js.map"
+    "main.css": "/Asinlab-Interview-Test/static/css/main.6914208d.css",
+    "main.js": "/Asinlab-Interview-Test/static/js/main.4886d32e.js",
+    "static/js/787.bf32509e.chunk.js": "/Asinlab-Interview-Test/static/js/787.bf32509e.chunk.js",
+    "index.html": "/Asinlab-Interview-Test/index.html",
+    "static/media/stopwatch.svg": "/Asinlab-Interview-Test/static/media/stopwatch.de269bfd796defb1f1b290c747974aeb.svg",
+    "main.6914208d.css.map": "/Asinlab-Interview-Test/static/css/main.6914208d.css.map",
+    "main.4886d32e.js.map": "/Asinlab-Interview-Test/static/js/main.4886d32e.js.map",
+    "787.bf32509e.chunk.js.map": "/Asinlab-Interview-Test/static/js/787.bf32509e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6914208d.css",
-    "static/js/main.cb8cf67d.js"
+    "static/js/main.4886d32e.js"
   ]
 }
